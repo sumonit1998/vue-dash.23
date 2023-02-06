@@ -1,0 +1,62 @@
+.header {
+    .navbar {
+        padding-top: 18px;
+    }
+    .navbar-brand {
+        max-width: 200px;
+        margin-left: 10px;
+    }
+    .navbar-nav {
+        padding: 5px 10px;
+        background: #313246;
+        border-radius: 17px;
+        .nav-item {
+            margin: 0px 5px;
+            border-radius: 13px;
+            .nav-link {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 153.5%;
+                color: #FFFFFF;
+                padding: 8px 20px;
+                &.router-link-active {
+                    background: #262638;
+                    border-radius: 13px;
+                }
+                
+            }
+            &:hover {
+                border-radius: 13px;
+                .nav-link {
+                    background: #262638;
+                    border-radius: 13px;
+                }
+            }
+        }
+    }
+    .right {
+        margin-right: 10px;
+        .connect-wallet {
+            background-color: rgba(166, 160, 255, 0.09);
+            padding: 10px 20px;
+            border-radius: 11px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 153.5%;
+            color: #97A1FF;
+            text-decoration: none;
+            margin: 0px 8px;
+        }
+        .night-btn {
+            background: rgba(63, 77, 94, 0.46);
+            border-radius: 6.43921px;
+            padding: 10px 15px;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+
+        }
+    }
+}

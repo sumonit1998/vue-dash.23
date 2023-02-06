@@ -1,0 +1,189 @@
+body {
+    background-color: #242537;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*--------- reset css --------------*/
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        background-color: #5E54D0;
+    }
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+        list-style: none;
+    }
+}
+
+/*---------- card css ----------------*/
+
+
+/*---------- header css --------------*/
+@import './../../layout/header.scss';
+/*--------------- home  main content -----------------*/
+.main-content {
+    padding: 50px 0px;
+
+    .balance {
+        background: #313246;
+        border: 0.507535px solid rgba(80, 87, 112, 0.63);
+        border-radius: 20.3014px;
+        padding: 25px;
+        .subtitle {
+            padding: 10px 0px;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 153.5%;
+            color: #9A9BB3;
+        }
+        p {
+            font-weight: 600;
+            padding: 10px 0px;
+            font-size: 16px;
+            line-height: 153.5%;
+            color: #FFFFFF;
+            span {
+                background: #5F3B43;
+                border-radius: 9.43139px;
+                font-size: 14px;
+                line-height: 153.5%;
+                color: #FF7C7C;
+                padding: 0px 5px;
+                margin-left: 10px;
+            }
+        }
+        .sign-out {
+            background: #5E54D0;
+            border-radius: 15.2261px;
+            color: #FFFFFF;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 153.5%;
+            display: block;
+            text-align: center;
+            padding: 15px 20px;
+            margin-top: 10px;
+
+        }
+    }
+        
+    .by-smak {
+        background: #313246;
+        border: 0.507535px solid rgba(80, 87, 112, 0.63);
+        border-radius: 20.3014px;
+        padding: 13px;
+        
+        .subtitle {
+            padding: 7px 0px;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 153.5%;
+            color: #9A9BB3;
+        }
+        p {
+            font-weight: 600;
+            padding: 0px;
+            font-size: 16px;
+            line-height: 153.5%;
+            color: #FFFFFF;
+        }
+        .market-cap, .smak-burned, .max-cap, .smak-btn{
+            padding: 12px;
+            margin: 7px;
+            border: 0.507535px solid rgba(80, 87, 112, 0.63);
+            background: #3B3C51;
+            border-radius: 14px;
+        }
+        .market-cap {
+            border: none;
+            background: radial-gradient(circle at 100% 100%, #3B3C51 0, #3B3C51 14px, transparent 14px) 0% 0%/15px 15px no-repeat,
+            radial-gradient(circle at 0 100%, #3B3C51 0, #3B3C51 14px, transparent 14px) 100% 0%/15px 15px no-repeat,
+            radial-gradient(circle at 100% 0, #3B3C51 0, #3B3C51 14px, transparent 14px) 0% 100%/15px 15px no-repeat,
+            radial-gradient(circle at 0 0, #3B3C51 0, #3B3C51 14px, transparent 14px) 100% 100%/15px 15px no-repeat,
+            linear-gradient(#3B3C51, #3B3C51) 50% 50%/calc(100% - 2px) calc(100% - 30px) no-repeat,
+            linear-gradient(#3B3C51, #3B3C51) 50% 50%/calc(100% - 30px) calc(100% - 2px) no-repeat,
+            linear-gradient(180deg, rgba(163,75,177,0.89) 0%, rgba(187,119,80,0.89) 100%);
+            box-sizing: border-box;
+        }
+        .smak-btn {
+            padding: 29.5px 0px;
+            text-align: center;
+            a {
+                background: #5E54D0;
+                border-radius: 13px;
+                font-weight: 600;
+                font-size: 16.2411px;
+                line-height: 153.5%;
+                color: #FFFFFF;
+                padding: 15px 20px;
+                img {
+                    width: 24px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .analytics {
+        background: #313246;
+        border: 0.507535px solid rgba(80, 87, 112, 0.63);
+        border-radius: 20.3014px;
+        padding: 17px 25px;
+        h4 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 153.5%;
+            color: #FFFFFF;
+            span {
+                color: #4EBF53;
+                font-size: 18px;
+                font-weight: 600;
+                margin-left: 10px;
+            }
+        }
+        .analytic-btn {
+            background: #5E5F7A;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 128%;
+            color: rgba(255, 255, 255, 0.83);
+            padding: 10px 15px;
+        }
+        .btn-group {
+            margin-top: 15px;
+            a{
+                background: #5E5F7A;;
+                border-radius: 8.22917px;
+                font-weight: 600;
+                font-size: 14.6296px;
+                line-height: 128%;
+                color: rgba(255, 255, 255, 0.83);
+                padding: 6px 15px;
+                margin: 0px 5px;
+                &.active {
+                    background-color: #5E54D0;
+                }
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+
+
+}
